@@ -129,15 +129,6 @@ div > label {
   color: #767676;
 }
 
-/* responded */
-.responded {
-  transition: 0.4s;
-  border-color: rgba(88, 183, 205, .9);
-}
-.responded label {
-  transition: 0.4s;
-  color: rgba(88, 183, 205, 1);
-}
 
 /* ================================= 
   Media Queries
@@ -156,8 +147,7 @@ div > label {
   }
   form {
     width: 95%;
-    -webkit-flex-direction: column;
-    flex-direction: column;
+
     margin: auto;
     margin-top: 2.5em;
   }
@@ -173,13 +163,12 @@ div > label {
     border: 3px solid rgba(0,0,0, .2);
     margin: 5px 0px;
   }
+  
   .inputInfo{
     margin: 5px 0px;
     
   }
-  .wrapper {
-    margin: 0;
-  }
+ 
   .main {
     padding: 2em 1em .75em;
   }
@@ -208,11 +197,13 @@ div > label {
     font-size: 1.9em;
     margin-left: 1.25%;
   }
+
   form {
     margin: 4.15em auto 0;
     z-index: 3000;
     position: relative;
   }
+
   .wrapper {
     width: 90%;
   }
@@ -221,17 +212,15 @@ div > label {
     position: relative;
     z-index: 10;
   }
+
   ul {
-    display: -webkit-flex;
-    display: flex;
     clear: both;
-    
     -webkit-justify-content: space-between;
     justify-content: space-between;
     -webkit-flex-wrap: wrap;    
-    flex-wrap: wrap;
     padding-top: 1.25em;
   }
+
   ul li {
     -webkit-flex-grow: 1;
     flex-grow: 1;
